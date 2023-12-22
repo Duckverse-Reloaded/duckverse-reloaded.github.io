@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocotinos.miau</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+        function slide1(){
+            document.getElementById('banner').src="Imagens/V1.jpg";
+            setTimeout("slide2()", 4000)
+        }
+        function slide2(){
+            document.getElementById('banner').src="Imagens/V2.jpg";
+            setTimeout("slide3()", 4000)
+        }
+        function slide3(){
+            document.getElementById('banner').src="Imagens/V3.jpg";
+            setTimeout("slide4()", 4000)
+        }
+        function slide4(){
+            document.getElementById('banner').src="Imagens/V4.jpg";
+            setTimeout("slide5()", 4000)
+        }
+        function slide5(){
+            document.getElementById('banner').src="Imagens/V5.jpg";
+            setTimeout("slide6()", 4000)
+        }
+        function slide6(){
+            document.getElementById('banner').src="Imagens/V6.jpg";
+            setTimeout("slide7()", 4000)
+        }
+        function slide7(){
+            document.getElementById('banner').src="Imagens/V7.jpg";
+            setTimeout("slide1()", 4000)
+        }
+    </script>
+</head>
+<body onload="slide1()">
+        <a href="index.html"><img src="Imagens/voltar.jpg" id="voltar"></a>  <!--botão de voltar-->
+        <img id="banner">
+            <img src="Imagens/Nosotros.jpg" id="nosotros" >
+            <p id="cap">
+                Esse é meu presente para você pocotinos, tudo o que pude fazer pra te agradecer por estar comigo em todos os momentos, bons e ruins. Você é muito especial para mim e eu não poderia ficar mais feliz de estar com a pessoa mais incrível do mundo, mesmo que me estresse as vezes. Mas isso é normal, então eu quero que saiba que eu realmente te amo. Independente de qualquer coisa, eu quero me casar e viver com você, quero aproveitar a vida ao seu lado e ficar feliz com seu sorriso. Não chora por coisinha, eu te amo.
+            </p>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+body{
+    background-image: url('Imagens/kittyWallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#titulo{
+    margin-top: 150px;
+    width: 560px;
+    font-size: 50px;
+    color: blueviolet;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    -webkit-text-stroke: 1.2px black;
+}
+
+.opcao{
+    color: blueviolet;
+    background: rgba(255, 255, 255, 0.6);
+    font-size: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 8px;
+    -webkit-text-stroke: 0.2px black;
+}
+
+.opcao:hover{
+    color: darkcyan;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 35px;
+    margin-left: 65px;
+    margin-right: 65px;
+    transition: color 0.3s ease, font-size 0.3s ease; /* Adiciona transições para cor e tamanho da fonte */
+    transform: scale(1.2);
+    transform-origin: 0 100%;
+}
+
+#voltar{
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    margin-top: 410px;
+    border-radius: 50px;
+}
+
+#voltar:hover{
+    opacity: 60%;
+    filter: brightness(1.2);
+}
+
+#carinho{
+    width: 450px;
+    height: 400px;
+    max-width: 500px;
+}
+
+#chao{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    height: 630px;
+    float: right;
+}
+
+#nosotros{
+    position: absolute;
+    max-width: 700px;
+    max-height: 525px;
+    margin-top: 23px;
+    margin-left: 160px;
+}
+
+#cap{
+    position: absolute;
+    width: 693px;
+    height: 523px;
+    margin-top: 23px;
+    margin-left: 160px;
+    padding-top: 2px;
+    padding-left: 7px;
+    font-size: 22px;
+    color: aliceblue;
+    -webkit-text-stroke: 0.2px black;
+    opacity: 0;
+    overflow: scroll;
+}
+
+#cap:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#banner{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 940px;
+    max-width: 310px;
+    max-height: 551px;
+    border: 8px solid rgb(51, 35, 14);
+    border-style: groove;
+}
+
+#militar{
+    max-width: 350px;
+    max-height: 466px;
+}

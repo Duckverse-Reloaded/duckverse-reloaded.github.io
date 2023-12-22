@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocotinos.miau</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <a href="index.html"><img src="Imagens/voltar.jpg" id="voltar"></a>  <!--botão de voltar-->
+        <img src="Imagens/carinho1.jpg" id="carinho" onmouseover="trocaCarinho()">  <!--Bungas-->
+
+        <div id="chao">  <!--Espaço pra Lalas correr-->
+            <img src="Imagens/lalas.png" id="lalas" onclick="pegou()" width="75px"; height="93px">
+        </div>
+
+    <script src="javascript.js"></script>
+    <script>
+            intervalID = setInterval(function(){ //run every second
+                var randomX = Math.random() * 770;
+                var randomY = Math.random() * 600;
+                document.getElementById('lalas').style.transform = "translate(" + randomX + "px, " + randomY + "px)";
+            }, 800)
+
+            function pegou(){
+                clearInterval(intervalID);
+                lalas = document.getElementById('lalas');
+                lalas.src = "Imagens/captura.png";
+            }
+
+    </script>
+</body>
+</html>
